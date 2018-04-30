@@ -36,6 +36,7 @@ public class Item {
 		return this.cost;
 	}
 	
+	//Return the price of the item
 	public int GetPrice() {
 		return this.price;
 	}
@@ -46,8 +47,6 @@ public class Item {
 	}
 	
 	//Return the reorder amount of the item.
-	//This checks if the item drops below the reorder point 
-	//and reorders this item with this amount.
 	public int GetReorderAmount() {
 		return this.reorderAmount;
 	}
